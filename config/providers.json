@@ -1,0 +1,44 @@
+{
+  "providers": [
+    {
+      "name": "azure-foundry",
+      "priority": 1,
+      "enabled": true,
+      "deployment": "ur-hermes-mini",
+      "base_url": "https://modelo-ia-ur.openai.azure.com/openai/v1",
+      "env_var": "AZURE_OPENAI_API_KEY"
+    },
+    {
+      "name": "kimi",
+      "priority": 2,
+      "enabled": true,
+      "model": "kimi-k2.7-code",
+      "base_url": "https://api.moonshot.ai/v1",
+      "env_var": "KIMI_API_KEY"
+    },
+    {
+      "name": "zai",
+      "priority": 3,
+      "enabled": true,
+      "model": "glm-5.2",
+      "base_url": "https://api.z.ai/api/paas/v4",
+      "env_var": "GLM_API_KEY"
+    },
+    {
+      "name": "deepseek",
+      "priority": 4,
+      "enabled": true,
+      "model": "deepseek-chat",
+      "base_url": "https://api.deepseek.com/v1",
+      "env_var": "DEEPSEEK_API_KEY"
+    },
+    {
+      "name": "openai-api",
+      "priority": 5,
+      "enabled": false,
+      "model": "gpt-4o",
+      "base_url": "https://api.openai.com/v1",
+      "env_var": "OPENAI_API_KEY"
+    }
+  ]
+}

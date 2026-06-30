@@ -1,16 +1,8 @@
-#-------------------------------------------------------
+#==============================================================
 # Hermes Enterprise Framework
-#-------------------------------------------------------
+#==============================================================
 
-$ModuleRoot=$PSScriptRoot
-
-Get-ChildItem `
-"$ModuleRoot\Core\*.ps1" `
--ErrorAction SilentlyContinue |
-ForEach-Object{
-
-. $_.FullName
-
-}
+. "$PSScriptRoot\Bootstrap.ps1"
 
 Export-ModuleMember -Function *
+

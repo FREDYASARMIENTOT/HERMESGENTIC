@@ -1,0 +1,37 @@
+{
+  "profiles": {
+
+    "Research": {
+      "provider": "azure-foundry",
+      "fallback": [
+        "kimi",
+        "zai",
+        "deepseek"
+      ]
+    },
+
+    "Coding": {
+      "provider": "kimi",
+      "fallback": [
+        "azure-foundry",
+        "deepseek"
+      ]
+    },
+
+    "Architect": {
+      "provider": "azure-foundry",
+      "fallback": [
+        "kimi",
+        "zai"
+      ]
+    },
+
+    "Analyst": {
+      "provider": "azure-foundry",
+      "fallback": [
+        "deepseek"
+      ]
+    }
+
+  }
+}
