@@ -1,0 +1,11 @@
+{
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+
+    "files.autoSave": "afterDelay",
+
+    "editor.formatOnSave": true,
+
+    "powershell.codeFormatting.autoCorrectAliases": true,
+
+    "powershell.codeFormatting.whitespaceAroundOperator": true
+}
