@@ -1,0 +1,10 @@
+{
+    "version": "2.0",
+    "environment": "development",
+    "provider": "AzureFoundry",
+    "profile": "Research",
+    "router": "Automatic",
+    "logging": true,
+    "finops": true,
+    "telemetry": false
+}

@@ -1,0 +1,15 @@
+{
+  "routing": {
+
+    "automatic": true,
+
+    "fallback": true,
+
+    "retry": 2,
+
+    "timeout": 60,
+
+    "healthcheck": true
+
+  }
+}
