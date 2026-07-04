@@ -1,0 +1,43 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "PowerShell: Launch Module",
+      "type": "PowerShell",
+      "request": "launch",
+      "script": "${workspaceFolder}/powershell/HermesEnterprise/Bootstrap.ps1",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false
+    },
+    {
+      "name": "PowerShell: Debug Script",
+      "type": "PowerShell",
+      "request": "launch",
+      "script": "${file}",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false
+    },
+    {
+      "name": "PowerShell: Launch Module with args",
+      "type": "PowerShell",
+      "request": "launch",
+      "script": "${workspaceFolder}/powershell/HermesEnterprise/Bootstrap.ps1",
+      "args": ["-Environment", "dev"],
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false,
+      "description": "Example: pass -Environment dev (edit args as needed)"
+    },
+    {
+      "name": "PowerShell: Launch alternate script",
+      "type": "PowerShell",
+      "request": "launch",
+      "script": "${workspaceFolder}/scripts/Initialize-HermesEnterprise.ps1",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false,
+      "description": "Launch the initialization script instead of the bootstrap module"
+    }
+  ]
+}
